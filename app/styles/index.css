@@ -50,8 +50,8 @@ header {
 
 .header--container {
     max-width: 1300px;
+    height: 100%;
     margin: 0 auto;
-    padding: 16px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -168,6 +168,9 @@ header {
     }
     .footer--container__left {
         display: none;
+    }
+    .header--container--navigation__link {
+        text-align: center;
     }
 }
 
