@@ -11,13 +11,13 @@
         <div class="header--container">
             <h2 class="header--container--title">Omnia</h2>
             <nav class="header--container--navigation">
-                <a class="header--container--navigation__link" href="#">Обо мне</a>
-                <a class="header--container--navigation__link" href="#">Мои навыки</a>
-                <a class="header--container--navigation__link" href="#">Контакты</a>
+                <a class="header--container--navigation__link" href="#about">Обо мне</a>
+                <a class="header--container--navigation__link" href="#skills">Мои навыки</a>
+                <a class="header--container--navigation__link" href="#contact">Контакты</a>
             </nav>
         </div>
     </header>
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="hero--container">
             <div class="hero--container--heading">
                 <div class="hero--container--heading__left">
@@ -32,7 +32,7 @@
             <div class="line"></div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="about--container">
             <h2 class="about--container--title">Обо мне</h2>
             <p class="about--container--description">
@@ -41,7 +41,7 @@
             <div class="line"></div>
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="skills--container">
             <h2 class="skills--container--title">Мои навыки</h2>
             <div class="skills--container--content">
@@ -59,7 +59,7 @@
             <div class="line"></div>
         </div>
     </section>
-    <section class="work">
+    <section class="work" id="work">
         <div class="work--container">
             <h2 class="work--container--title">Как я работаю</h2>
             <div class="work--container--video-wrapper">
@@ -68,14 +68,14 @@
             <div class="line"></div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contact--container">
             <h2 class="contact--container--title">Напишите мне</h2>
             <div class="contact--container--form">
                 <input class="contact--container--form--input-name" placeholder="name"/>
                 <input class="contact--container--form--input-email" placeholder="email"/>
                 <textarea class="contact--container--form--input-message" placeholder="message"></textarea>
-                <button type="button" class="contact--container--form--button">Send</button>
+                <a class="contact--container--form--button" href="#contact">Send</a>
             </div>
         </div>
     </section>
